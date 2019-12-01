@@ -2,6 +2,7 @@ name: RandomItem
 version: 4.4
 api: 4.0.0
 load: POSTWORLD
+description: An advanced plugin for PocketMine-MP
 website: https://github.com/IceCruelStuff/RandomItem
 commands:
   gift:
