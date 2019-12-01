@@ -1,5 +1,6 @@
 name: RandomItem
 version: 4.4
+main: RandomItem\Main
 api: 4.0.0
 load: POSTWORLD
 description: An advanced plugin for PocketMine-MP
