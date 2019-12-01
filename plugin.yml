@@ -1,0 +1,21 @@
+name: RandomItem
+version: 4.4
+api: 4.0.0
+load: POSTWORLD
+website: https://github.com/IceCruelStuff/RandomItem
+commands:
+  gift:
+    permission: randomitem.gift
+    description: Gives a random item
+    usage: /gift [player]
+permissions:
+  randomitem:
+    description: Allows access to all RandomItem features.
+    default: false
+    children:
+      randomitem.gift:
+        description: Allows players to use the gift command.
+        default: op
+      randomitem.receive:
+        description: Allows players to receive random items.
+        default: true
