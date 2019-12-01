@@ -21,7 +21,7 @@ class Main extends PluginBase {
     $this->getServer()->getScheduler()->scheduleRepeatingTask(new Gift($this),$t);
   }
   public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
-    if((strtolower($cmd->getName()) == "gift") && isset($args[0])) {
+    if((strtolower($command->getName()) == "gift") && isset($args[0])) {
       if($this->getServer()->getPlayer($args[0]) instanceof Player) {
         $d = $this->generateData();
         $p = $this->getServer()->getPlayer($args[0]);
