@@ -1,7 +1,9 @@
 <?php
 namespace RandomItem;
-use use pocketmine\event\Listener;
+
+use pocketmine\event\Listener;
 use pocketmine\Server;
+
 class Gift implements Listener {
   public function __construct(Main $plugin) {
     $this->plugin = $plugin;
